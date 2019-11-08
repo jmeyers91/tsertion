@@ -1,0 +1,35 @@
+{
+  "name": "tsertion",
+  "version": "1.0.0",
+  "description": "Koa middleware for handling errors.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmeyers91/tsertion.git"
+  },
+  "keywords": [
+    "typescript",
+    "assert",
+    "assertion",
+    "runtime",
+    "type-guard",
+    "guard"
+  ],
+  "author": "James Meyers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmeyers91/tsertion/issues"
+  },
+  "homepage": "https://github.com/jmeyers91/tsertion#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.22",
+    "@types/node": "^12.12.3",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  }
+}
